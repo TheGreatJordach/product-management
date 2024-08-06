@@ -2,6 +2,7 @@
 
 /data
 .env.local
+.env.firebase
 # compiled output
 /dist
 /node_modules

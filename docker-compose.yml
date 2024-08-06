@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: Products-db
+    env_file:
+      - .env.local
+    ports:
+      - "3306:3306"
